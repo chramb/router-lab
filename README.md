@@ -32,5 +32,5 @@ Allows for seamless connection with other servers (cloud or remote), will allow 
 </details>
 
 # References
-[Setting up Alpine Linux as a Home Router](https://riedstra.dev/2022/02/alpine-linux-home-router)
-[Setup BIND9 with ISC-DHCP-SERVER dynamic host registration](https://talk-about-it.ca/setup-bind9-with-isc-dhcp-server-dynamic-host-registration/)
+- [Setting up Alpine Linux as a Home Router](https://riedstra.dev/2022/02/alpine-linux-home-router)
+- [Setup BIND9 with ISC-DHCP-SERVER dynamic host registration](https://talk-about-it.ca/setup-bind9-with-isc-dhcp-server-dynamic-host-registration/)
