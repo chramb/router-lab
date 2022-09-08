@@ -28,7 +28,7 @@ another ISC product, while the same reasoning as above applies it's also the onl
 ### Certificate Authority: [step ca](https://smallstep.com/docs/step-ca)
 provides ssh and X.509 certificate management with ACME protocol support.
 
-### Firewall: [nftables](https://www.nftables.org/)([wiki](https://wiki.nftables.org/))
+### Firewall: [nftables](https://www.nftables.org/)<sub>([wiki](https://wiki.nftables.org/))</sub>
 minimal Linux firewall, modern replacement for iptables.
 
 ### VPN: [Tailscale](https://tailscale.com/)
