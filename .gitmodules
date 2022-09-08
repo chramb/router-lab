@@ -1,0 +1,4 @@
+[submodule "ansible"]
+	path = ansible
+	url = git@github.com:chramb-homelab/router-config.git
+	branch = master
