@@ -6,8 +6,12 @@ I opted for [terraform](https://terraform.io/) based lab because it would be eas
 Terraform provider used: [dmacvicar/terraform-provider-libvirt](https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs) [GitHub](https://github.com/dmacvicar/terraform-provider-libvirt)
 
 # Router Plan
-## Hardware
-<!-- TODO -->
+## Test Lab Network Diagram
+```mermaid
+flowchart LR
+    A{{"🌐 Internet"}} --- B(["🔥 Alpine Router"])
+    B --- C(["🖥️ Ubuntu Desktop 1"]) & D(["🖥️ Ubuntu Desktop 2"])
+```
 
 <details>
 <summary><h2> Software</h2></summary>
@@ -30,6 +34,8 @@ minimal Linux firewall, modern replacement for iptables.
 ### VPN: [Tailscale](https://tailscale.com/)
 Allows for seamless connection with other servers (cloud or remote), will allow usage of common DNS on all nodes no matter of the locationta
 </details>
+
+
 
 # References
 - [Setting up Alpine Linux as a Home Router](https://riedstra.dev/2022/02/alpine-linux-home-router)
