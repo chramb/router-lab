@@ -10,7 +10,7 @@ Terraform provider used: [dmacvicar/terraform-provider-libvirt](https://registry
 ```mermaid
 flowchart LR
     A{{"🌐 Internet"}} --- B(["🔥 Alpine Router"])
-    B --- C(["🖥️ Ubuntu Desktop 1"]) & D(["🖥️ Ubuntu Desktop 2"])
+    B --- C(["🖥️ Ubuntu Desktop"]) & D(["🖥️ Fedora Desktop"])
 ```
 
 <details>
